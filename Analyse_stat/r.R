@@ -1,0 +1,8 @@
+library(readODS)
+data <- read_ods(path = "C:/Users/Vitre/Desktop/Cours/S2/BILL/Nombres indels P65.ods", sheet = 1)
+mean(data$INS)
+mean(data$DEL)
+mean(data$INDELS)
+sd(data$INS)
+sd(data$DEL)
+sd(data$INDELS)
